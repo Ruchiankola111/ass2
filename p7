@@ -1,0 +1,7 @@
+for i in 0...5 {
+      print(String.init(repeating:" ",count:i)+String.init(repeating:"* ",count:5-i))
+}
+for i in 1...5 {
+    	print(String.init(repeating:" ",count:5-i)+String.init(repeating:"* ",count:i))
+}
+
