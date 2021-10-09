@@ -1,0 +1,3 @@
+for i in 1...5 {
+    	print(String.init(repeating:" ",count:5-i)+String.init(repeating:"*",count:i))
+}
